@@ -38,12 +38,15 @@ Deployed on [Amazon AWS](https://aws.amazon.com/) remote machine using [Apache T
 ## Built With
 
 * [Spotıfy Web API](https://developer.spotify.com/documentation/web-api/) - Search item and get results as JSON
+* [LRU Cache](https://github.com/umurotti/Caching) - First level cache
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [Google Speech-to-Text API](https://cloud.google.com/speech-to-text/) - Convert voice to String elements
+* [Google Speech-to-Text API](https://cloud.google.com/speech-to-text/) - Convert voice to String elements ([see custom implementation](https://github.com/umurotti/GoogleSpeecToTextAPI))
 * [Redis](https://redis.io/) - Storing search results as a second level cache
 * [JAX-RS API](https://github.com/jax-rs) - Standardization for RESTful Web Services
 * [Swagger UI](https://swagger.io/) - Open Source Web API interface
 * [NetBeans](https://netbeans.org/) - What a lovely IDE...
+* [Strategy Deisgn Pattern](http://www.cs.unc.edu/~stotts/GOF/hires/pat5ifso.htm) - Dynamical runtime response based on request parameters
+* [Base64](https://base64.guru/learn/what-is-base64) - Send voice message as request paramter
 
 ## Contributing
 
