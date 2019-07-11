@@ -23,6 +23,7 @@ Available keyTypes on Latest Version:
 
 
 </br>e.g. __read the italic part as clearly as possible__ _"Play Artist Pink Floyd"_
+</br>(be sure to give short breaks after each word)
 
 ## Deployment
 Deployed on [Amazon AWS](https://aws.amazon.com/) remote machine using [Apache TOMCAT](http://tomcat.apache.org/)
