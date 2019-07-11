@@ -45,7 +45,7 @@ Deployed on [Amazon AWS](https://aws.amazon.com/) remote machine using [Apache T
 * [JAX-RS API](https://github.com/jax-rs) - Standardization for RESTful Web Services
 * [Swagger UI](https://swagger.io/) - Open Source Web API interface
 * [Strategy Deisgn Pattern](http://www.cs.unc.edu/~stotts/GOF/hires/pat5ifso.htm) - Dynamical runtime response based on request parameters
-* [Base64](https://base64.guru/learn/what-is-base64) - Send voice message as request paramter
+* [Base64](https://base64.guru/learn/what-is-base64) - Send voice message as String request paramter
 * [NetBeans](https://netbeans.org/) - What a lovely IDE...
 
 ## Contributing
