@@ -10,6 +10,8 @@ How to use:
 * Until the mouse moves out of icon borders application records the audio
 * When mouse is moved out of icon it it sends the request and shows the response accordingly
 
+</br>(If the application does not recording voice or showing a blank black page please see Significant Release Notes)
+
 </br>What to say:</br>
 <-command->     <-keyType-(choose one)->        <-item->
 
@@ -29,7 +31,9 @@ Available keyTypes on Latest Version:
 Deployed on [Amazon AWS](https://aws.amazon.com/) remote machine using [Apache TOMCAT](http://tomcat.apache.org/)
 
 ## Significant Release Notes
-First level LRU Cache has still size of maximum 2 elements for some test issues about LRU policy
+* First level LRU Cache has still size of maximum 2 elements for some test issues about LRU policy
+* Suported Languages: English
+* Current release works properly on Firefox web browser, if the browser does not record your voice please try again with a Firefox window
 
 ## Built With
 
