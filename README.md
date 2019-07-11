@@ -38,7 +38,7 @@ Deployed on [Amazon AWS](https://aws.amazon.com/) remote machine using [Apache T
 ## Built With
 
 * [Spotıfy Web API](https://developer.spotify.com/documentation/web-api/) - Search item and get results as JSON
-* [LRU Cache](https://github.com/umurotti/Caching) - First level cache
+* [LRU Cache](https://github.com/umurotti/Caching) - Custom implemented first level cache with [LRU replacemnt policy](http://www.mathcs.emory.edu/~cheung/Courses/355/Syllabus/9-virtual-mem/LRU-replace.html)
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Google Speech-to-Text API](https://cloud.google.com/speech-to-text/) - Convert voice to String elements ([see custom implementation](https://github.com/umurotti/GoogleSpeecToTextAPI))
 * [Redis](https://redis.io/) - Storing search results as a second level cache
