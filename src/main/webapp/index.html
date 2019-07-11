@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="document.authenticate.submit()" >
+        
+        <form class="client-register-form" name="authenticate" action="https://accounts.spotify.com/authorize" >
+            <input type="hidden" name="client_id" value="6ed01b24b522427f89e584b3caa4438f" />
+            <input type="hidden" name="response_type" value="token"/>
+            <input type="hidden" name="redirect_uri" id="redirect" value=""/>
+            <input type="hidden" name="state" value="5a7f34d7bff84912b5c611692bb0e56f"/>
+            <input type="hidden" name="scopes" value="user-read-private user-read-email"/>
+            <input type="hidden" name="show_dialog" value="false"/>
+            
+        </form>
+        <h1> Redirecting to Spootify...</h1>
+            <script>
+                var url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.split('/')[1] + "/redirect.jsp";
+                document.getElementById("redirect").value = url;
+            </script>
+
+
+
+
+
+    </body>
+</html>

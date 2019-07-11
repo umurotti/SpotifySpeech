@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2019, 4:22:30 PM
+    Author     : umur
+*/
+
+
+.client-register-form {
+  width: 40%;
+  margin: 60px auto;
+  padding: 25px 0;
+  box-shadow: 0 0 10px -4px #000;
+  border-radius: 8px;
+}
+.client-register-form input {
+  display: block;
+  margin: 10px auto;
+  width: 277px;
+  padding: 8px;
+}
+.client-register-form input[type="submit"] {
+  border: 0;
+  background-color: #666;
+  color: #f8f8f8;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 8px;
+  width: 300px;
+  transition-duration: .5s;
+}
+.client-register-form input[type="submit"]:hover {
+  background-color: #000;
+  
+}
+
+form + script + div {
+    font-family: monospace;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 16px;
+    margin: 0;
+}
+
+form + script + div + h2 {
+    font-family: monospace;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}
