@@ -42,7 +42,7 @@ Deployed on [Amazon AWS](https://aws.amazon.com/) remote machine using [Apache T
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Google Speech-to-Text API](https://cloud.google.com/speech-to-text/) - Convert voice to String elements ([see custom implementation](https://github.com/umurotti/GoogleSpeecToTextAPI))
 * [Redis](https://redis.io/) - Storing search results as a second level cache
-* [Docker](https://www.docker.com/) - Dockerized container platform to build, manage and secure all their applications from traditional applications to cutting-edge microservices — and deploy them anywhere
+* [Docker](https://www.docker.com/) - Dockerized container platform to build, manage and secure the application and deploy it anywhere
 * [JAX-RS API](https://github.com/jax-rs) - Standardization for RESTful Web Services
 * [Swagger UI](https://swagger.io/) - Open Source Web API interface
 * [Strategy Deisgn Pattern](http://www.cs.unc.edu/~stotts/GOF/hires/pat5ifso.htm) - Dynamical runtime response based on request parameters
