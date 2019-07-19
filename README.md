@@ -3,6 +3,7 @@ Search items on Spotify by voice
 
 ### Give it a try...
 [Go to app -->](http://ec2-18-184-251-229.eu-central-1.compute.amazonaws.com:8080/SpotifySpeech-1.0-SNAPSHOT)
+[Go to Swagger API UI](http://ec2-18-184-251-229.eu-central-1.compute.amazonaws.com:8080/SpotifySpeech-1.0-SNAPSHOT/Swagger_index.html#/)
 
 How to use:
 
