@@ -71,9 +71,9 @@ This project is currently not under anyone's license.
 
 ## Future-Work
 
-* Creating a mobile interface
-* Adding new commands
-* Improving search results
-* Complete Listen-Search-Play cycle without any need of further interaction with the user
+* [x] Creating a mobile interface
+* [ ] Adding new commands
+* [ ] Improving search results
+* [ ] Complete Listen-Search-Play cycle without any need of further interaction with the user
 
 ### This project is supported by [Cybersoft](http://www.cs.com.tr/TR/)
